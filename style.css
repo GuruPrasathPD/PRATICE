@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+video{
+    width:100%;
+}
+.newcontainer{
+    position: relative;
+}
+.newcontainer img{
+   width:100%;
+   height: auto;
+}
+.img-container{
+    position: absolute;
+    top:100px;
+    width: 40%;
+    padding-left: 15%;
+
+}
+.text-container{
+    position: absolute;
+    top:0
+}
+.text-container h3{
+    padding-top:500px;
+    padding-left:200px;
+    text-decoration: underline;
+    font-size:40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: blueviolet;
+}
+.text-container h4{
+    padding-top:50px;
+    padding-left:350px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    font-size:30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    color: brown;
+}
+.container{
+    width: 100%;
+    position: relative;
+    transform: translate(-50%,0%);
+    left: 50%;
+    overflow: hidden;
+    border: 0px solid #ffffff;
+    border-radius: 0px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 12s infinite;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+img{
+    width: 100%;
+}
+.timer {
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    padding-right: 200px;
+    color: rgb(157, 19, 19);
+  }
+
+
+@media(max-width:1000px){
+    .img-container{
+        position: absolute;
+        top:80px;
+        width: 40%;
+        padding-left: 15%;
+    
+    }
+}
+
+@media(max-width:700px){
+    .img-container{
+        position: absolute;
+        top:50px;
+        width: 40%;
+        padding-left: 15%;
+    
+    }
+}
+@media(max-width:400px){
+    .img-container{
+        position: absolute;
+        top:30px;
+        width: 40%;
+        padding-left: 15%;
+    
+    }
+}
+@media(max-width:1600px){
+    .text-container h3{
+        padding-top:500px;
+        padding-left:160px;
+        text-decoration: underline;
+        font-size:40px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        color: blueviolet;
+    }
+    .text-container h4{
+        padding-top:20px;
+        padding-left:200px;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        font-size:40px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: brown;
+    } 
+}
+@media(max-width:500px){
+    .text-container h3{
+        padding-top:150px;
+        padding-left:60px;
+        text-decoration: underline;
+        font-size:10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        color: blueviolet;
+    }
+    .text-container h4{
+        padding-top:20px;
+        padding-left:85px;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        font-size:10px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: brown;
+    } 
+}
+@media(max-width:400px){
+    .text-container h3{
+        padding-top:130px;
+        padding-left:50px;
+        text-decoration: underline;
+        font-size:10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: italic;
+        color: blueviolet;
+    }
+    .text-container h4{
+        padding-top:20px;
+        padding-left:75px;
+        letter-spacing: 2px;
+        text-decoration: underline;
+        font-size:10px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-style: italic;
+        color: brown;
+    } 
+}
